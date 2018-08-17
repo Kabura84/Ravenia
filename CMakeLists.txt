@@ -7,8 +7,8 @@ include_directories(Network)
 include_directories(Logger)
 
 set (APP_SOURCES
-        ravenia.cpp
-        Network/raveniaClient.cpp
+        Ravenia.cpp
+        Network/RaveniaClient.cpp
         Logger/Logger.cpp)
 
 add_executable(ravenia ${APP_SOURCES})

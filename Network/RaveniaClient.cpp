@@ -1,4 +1,4 @@
-#include "raveniaClient.h"
+#include "RaveniaClient.h"
 #include "Logger.h"
 
 RaveniaClient::RaveniaClient()
