@@ -9,6 +9,11 @@ include_directories(Logger)
 set (APP_SOURCES
         Ravenia.cpp
         Network/RaveniaClient.cpp
-        Logger/Logger.cpp)
+        Logger/Logger.cpp
+        Game/Board.cpp
+        Game/Item.cpp
+        Game/Monster.cpp
+        Game/Player.cpp
+        Game/State.cpp)
 
 add_executable(ravenia ${APP_SOURCES})
