@@ -5,6 +5,9 @@ cmake_minimum_required(VERSION 2.8)
 set (CMAKE_CXX_FLAGS "-fpermissive")
 include_directories(Network)
 include_directories(Logger)
+include_directories(Game)
+
+add_subdirectory(./UnitTests)
 
 set (APP_SOURCES
         Ravenia.cpp
